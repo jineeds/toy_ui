@@ -1,12 +1,13 @@
-// script.js
-const openBtn = document.getElementById('openBtn');
-const closeBtn = document.getElementById('closeBtn');
-const popup = document.getElementById('popup');
+const openBtn = document.querySelector('.modal_btn');
+const closeBtn = document.querySelector('.close_btn');
+const modal = document.querySelector('.modal');
 
+// 모달 열기
 openBtn.addEventListener('click', () => {
-  popup.style.display = 'flex';
+  modal.style.display = 'flex';
 });
 
+// 모달 닫기
 closeBtn.addEventListener('click', () => {
-  popup.style.display = 'none';
+  modal.style.display = 'none';
 });
