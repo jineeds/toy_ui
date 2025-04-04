@@ -19,19 +19,28 @@
   background-color: #3c3c3c;
   border-radius: 8px;
   width: 400px;
-  padding: 24px 24px 20px;
+  padding: 24px 24px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   border-top: 4px solid #e50000;
 }
+.modal_popup .result_text {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  color: #aaa;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 .modal_popup h3 {
   color: #fff;
-  margin-bottom: 6px;
+  margin-bottom: 16px;
   font-size: 1.2rem;
 }
 .modal_popup .subtext {
   color: #aaa;
   font-size: 0.85rem;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   line-height: 1.5;
 }
 .modal_popup .button_group {

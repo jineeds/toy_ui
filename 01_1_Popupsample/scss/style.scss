@@ -27,20 +27,30 @@ $btn-red: #e50000;
   background-color: $popup-bg-color;
   border-radius: 8px;
   width: 400px;
-  padding: 24px 24px 20px;
+  padding: 24px 24px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   border-top: 4px solid $line-red;
+  // 응용
+  .result_text {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: $popup-subtitle-color;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 
   h3 {
     color: $popup-title-color;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
     font-size: 1.2rem;
   }
 
   .subtext {
     color: $popup-subtitle-color;
     font-size: 0.85rem;
-    margin-bottom: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     line-height: 1.5;
   }
 

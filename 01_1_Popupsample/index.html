@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>팝업 연습</title>
+    <link rel="stylesheet" href="../01_1_Popupsample/css/output/style.css" />
+    <script defer src="../01_1_Popupsample/script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>모달 팝업 응용 연습</h2>
+        <button type="button" class="modal_btn">팝업 응용 테스트</button>
+      </section>
+    </main>
+
+    <!-- 모달 팝업창 내용 부분 -->
+    <div class="modal" id="surveyModal">
+      <div class="modal_popup">
+        <h3>🤔 MBTI 간단 설문</h3>
+        <div class="subtext">Q. 휴식시간이 생긴다면 어떤 게 더 흥미롭나요?</div>
+
+        <div class="button_group">
+          <button class="gray_btn mbti_btn" data-type="I">혼자 즐기는 취미생활</button>
+          <button class="red_btn mbti_btn" data-type="E">사람들과 함께 놀이공원</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 결과 팝업 -->
+    <div class="modal" id="resultModal">
+      <div class="modal_popup">
+        <h3>✨ 결과 도착!</h3>
+        <div class="result_text" id="resultText">MBTI 결과가 여기에 표시됩니다.</div>
+        <div class="button_group">
+          <button class="gray_btn" id="resultCloseBtn">닫기</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
